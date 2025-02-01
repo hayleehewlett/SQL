@@ -36,7 +36,7 @@ order by price desc;
 -- sum of item prices
 select sum(price)
 from superstore
-where category="Electronics"
+where category="Electronics";
 
 -- sum price for items in category "Kitchen Supplies"
 SELECT sum(price)
